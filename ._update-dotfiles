@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Copy over stuff because Git doesn't follow symlinks.
+
+cp ~/.zshrc .;
+cp ~/.hyper.js .;
+
+cp ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json ./vscode;
+
+cp ~/Library/Fonts/SF\ Mono\ Regular\ Nerd\ Font\ Complete.otf ./fonts
+
+code-insiders --list-extensions > ./vscode/.extensions

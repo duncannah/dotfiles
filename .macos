@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+echo "Disable dashboard"
+defaults write com.apple.dashboard mcx-disabled -boolean TRUE;
+
+echo "Disable Crash reporter"
+defaults write com.apple.CrashReporter DialogType -string "none";
+
+echo "Set Dock size and lock"
+defaults write com.apple.Dock tilesize -int 32;
+defaults write com.apple.Dock size-immutable -bool yes;
+
+echo "Set other Dock defaults"
+defaults write com.apple.Dock magnification -bool yes;
+defaults write mineffect -string "genie";
+defaults write "minimize-to-application" -bool yes;
+
+echo "Restart Dock"
+killall Dock;
