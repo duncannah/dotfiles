@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
+echo "$(basename "$0") starting."
+
 # Copy over stuff because Git doesn't follow symlinks.
 
-cp ~/.zshrc .;
-cp ~/.hyper.js .;
+cp ~/.zshrc ./dotfiles;
+cp ~/.hyper.js ./dotfiles;
 
 cp ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json ./vscode;
 
 cp ~/Library/Fonts/SF\ Mono\ Regular\ Nerd\ Font\ Complete.otf ./fonts
 
 code-insiders --list-extensions > ./vscode/.extensions
+
+echo "$(basename "$0") complete."

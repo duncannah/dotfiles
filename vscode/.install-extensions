@@ -1,1 +1,7 @@
+#!/usr/bin/env bash
+
+echo "$(basename "$0") starting."
+
 while read ex; do code-insiders --install-extension "$ex"; done < ./.extensions
+
+echo "$(basename "$0") complete."
