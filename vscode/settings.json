@@ -10,7 +10,6 @@
 	"explorer.decorations.badges": false,
 	"atomKeymap.promptV3Features": true,
 	"editor.multiCursorModifier": "ctrlCmd",
-	"editor.formatOnPaste": true,
 
 	"editor.insertSpaces": false,
 
@@ -403,6 +402,6 @@
 	"workbench.startupEditor": "newUntitledFile",
 	"git.enableSmartCommit": true,
 	"git.confirmSync": false,
-	"discord.detailsIdle": "Slacking",
-	"discord.workspaceElapsedTime": true
+	"discord.workspaceElapsedTime": true,
+	"discord.detailsEditing": "Editing {dirname}/{filename}"
 }
