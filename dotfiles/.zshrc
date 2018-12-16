@@ -161,7 +161,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -194,3 +194,5 @@ export PATH="/usr/local/opt/php@7.1/bin:$PATH"
 export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
 
 export PATH="/usr/local/Cellar/mysql/5.7.22/bin/:$PATH"
+
+export PATH="/Applications/Wine Staging.app/Contents/Resources/wine/bin/:$PATH"
