@@ -30,6 +30,9 @@ brew cask install tor-browser
 brew cask install virtualbox
 brew cask install tunnelblick
 
+brew cask install xquartz
+brew cask install wine-staging
+
 # Remove bundled mpv from IINA to use the custom one
 rm /Applications/IINA.app/Contents/Frameworks/libmpv*
 
