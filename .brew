@@ -33,6 +33,7 @@ brew install elinks
 brew install ffmpeg
 brew install youtube-dl
 brew install neofetch
+brew install winetricks
 
 brew install zsh-syntax-highlighting
 
