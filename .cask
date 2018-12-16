@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
+
+source ~/.zshrc
 
 echo "$(basename "$0") starting."
 
@@ -27,5 +29,8 @@ brew cask install android-platform-tools
 brew cask install tor-browser
 brew cask install virtualbox
 brew cask install tunnelblick
+
+# Remove bundled mpv from IINA to use the custom one
+rm /Applications/IINA.app/Contents/Frameworks/libmpv*
 
 echo "$(basename "$0") complete."
