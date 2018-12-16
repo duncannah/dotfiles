@@ -78,10 +78,8 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Disable Crash reporter
 defaults write com.apple.CrashReporter DialogType -string "none"
 
-# Disable Spotlight
-sudo mdutil -a -i off
+# Spotlight only index apps
 sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
-sudo rm -rf /.Spotlight-V100/*
 
 ###############################################################################
 # UPDATES
