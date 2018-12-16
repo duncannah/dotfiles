@@ -89,4 +89,10 @@ sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticallyI
 sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate ConfigDataInstall -bool false
 sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CriticalUpdateInstall -bool false
 
+
+# OTHER ANNOYANCES
+
+# Disable DMG verification
+defaults write com.apple.frameworks.diskimages skip-verify -bool true
+
 echo "$(basename "$0") complete."
