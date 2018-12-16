@@ -78,4 +78,15 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Disable Crash reporter
 defaults write com.apple.CrashReporter DialogType -string "none"
 
+###############################################################################
+# UPDATES
+###############################################################################
+
+# Disable automatic check, download and install
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticCheckEnabled -bool false
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticDownload -bool false
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticallyInstallMacOSUpdates -bool false
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate ConfigDataInstall -bool false
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CriticalUpdateInstall -bool false
+
 echo "$(basename "$0") complete."

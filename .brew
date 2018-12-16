@@ -1,12 +1,20 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
+
+source ~/.zshrc
 
 echo "$(basename "$0") starting."
 
 brew update
 brew upgrade
 
+brew install coreutils
+brew install moreutils
+brew install findutils
+
+sudo ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
+
 brew install gcc
-brew instalc cmake
+brew install cmake
 
 brew install wget
 brew install vim --with-override-system-vi

@@ -2,10 +2,7 @@
 
 echo "$(basename "$0") starting."
 
-# Copy over stuff because Git doesn't follow symlinks.
-
-cp ~/.zshrc ./dotfiles;
-cp ~/.hyper.js ./dotfiles;
+# Copy over stuff that can't be symlinked
 
 cp ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json ./vscode;
 

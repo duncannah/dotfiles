@@ -9,7 +9,7 @@ brew tap homebrew/cask
 brew tap homebrew/cask-versions
 
 brew cask install google-chrome
-brew cask install iina
+brew cask install iina-beta
 brew cask install hyper
 brew cask install visual-studio-code-insiders
 brew cask install veracrypt

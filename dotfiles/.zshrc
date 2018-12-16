@@ -2,7 +2,9 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/erman/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
+
+setopt globdots
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -92,7 +94,7 @@ ZLE_RPROMPT_INDENT=0
 
 SPACESHIP_CHAR_SUFFIX=' '
 SPACESHIP_CHAR_SYMBOL='>'
-SPACESHIP_NODE_DEFAULT_VERSION='v11.2.0'
+SPACESHIP_NODE_DEFAULT_VERSION='v11.4.0'
 
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="spaceship"
