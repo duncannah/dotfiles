@@ -10,3 +10,5 @@ rm ~/.zshrc; ln -s ~/dotfiles/dotfiles/.zshrc ~
 rm ~/.hyper.js; ln -s ~/dotfiles/dotfiles/.hyper.js ~
 
 rm ~/.vimrc; ln -s ~/dotfiles/dotfiles/.vimrc ~
+
+rm ~/.prettierrc; ln -s ~/dotfiles/dotfiles/.prettierrc ~

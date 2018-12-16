@@ -4,8 +4,6 @@ echo "$(basename "$0") starting."
 
 # Copy over stuff that can't be symlinked
 
-cp ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json ./vscode;
-
 cp ~/Library/Fonts/SF\ Mono\ Regular\ Nerd\ Font\ Complete.otf ./fonts
 
 code-insiders --list-extensions > ./vscode/.extensions
