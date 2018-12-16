@@ -78,6 +78,11 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Disable Crash reporter
 defaults write com.apple.CrashReporter DialogType -string "none"
 
+# Disable Spotlight
+sudo mdutil -a -i off
+sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
+sudo rm -rf /.Spotlight-V100/*
+
 ###############################################################################
 # UPDATES
 ###############################################################################
@@ -89,8 +94,9 @@ sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticallyI
 sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate ConfigDataInstall -bool false
 sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CriticalUpdateInstall -bool false
 
-
+###############################################################################
 # OTHER ANNOYANCES
+###############################################################################
 
 # Disable DMG verification
 defaults write com.apple.frameworks.diskimages skip-verify -bool true
