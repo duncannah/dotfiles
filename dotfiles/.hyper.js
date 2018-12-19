@@ -21,7 +21,7 @@ module.exports = {
 		fontWeightBold: "bold",
 
 		// terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-		cursorColor: "rgb(192, 105, 255)",
+		cursorColor: "#FFCC00",
 
 		// terminal text color under BLOCK cursor
 		cursorAccentColor: "#000",
@@ -85,6 +85,24 @@ module.exports = {
 			lightWhite: "rgb(254, 254, 254)"
 		},
 
+		MaterialTheme: {
+			// Set the theme variant,
+			// OPTIONS: 'Darker', 'Palenight', 'Ocean', ''
+			theme: "Ocean",
+
+			// [Optional] Set the rgba() app background opacity, useful when enableVibrance is true
+			// OPTIONS: From 0.1 to 1
+			backgroundOpacity: ".55",
+
+			// [Optional] Set the accent color for the current active tab
+			accentColor: "#AB47BC",
+
+			// [Optional] Mac Only. Need restart. Enable the vibrance and blurred background
+			// OPTIONS: 'dark', 'ultra-dark', 'bright'
+			// NOTE: The backgroundOpacity should be between 0.1 and 0.9 to see the effect.
+			vibrancy: "ultra-dark"
+		},
+
 		// the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
 		// if left empty, your system's login shell will be used by default
 		//
@@ -113,7 +131,7 @@ module.exports = {
 		copyOnSelect: false,
 
 		// if `true` (without backticks and without quotes), hyper will be set as the default protocol client for SSH
-		defaultSSHApp: true,
+		defaultSSHApp: true
 
 		// if `true` (without backticks and without quotes), on right click selected text will be copied or pasted if no
 		// selection is present (`true` by default on Windows and disables the context menu feature)
@@ -123,10 +141,6 @@ module.exports = {
 		// bellSoundURL: 'http://example.com/bell.mp3',
 
 		// for advanced config flags please refer to https://hyper.is/#cfg
-
-		hyperVibrance: {
-			vibrancy: "ultra-dark"
-		}
 	},
 
 	// a list of plugins to fetch and install from npm
@@ -136,7 +150,7 @@ module.exports = {
 	//                 `@company/project`
 	//                 `project#1.0.1
 	// hyperpower#joshclow/hyperpower`
-	plugins: ["hyperterm-paste", "hyper-vibrance"],
+	plugins: ["hyperterm-paste", "hyper-material-theme"],
 
 	// in development, you can create a directory under
 	// `~/.hyper_plugins/local/` and include it here
