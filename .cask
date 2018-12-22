@@ -32,6 +32,7 @@ brew cask install tunnelblick
 
 brew cask install xquartz
 brew cask install wine-staging
+brew cask install phantomjs
 
 # Remove bundled mpv from IINA to use the custom one
 rm /Applications/IINA.app/Contents/Frameworks/libmpv*
