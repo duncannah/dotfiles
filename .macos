@@ -6,6 +6,15 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
+# NETWORKING
+###############################################################################
+
+# Use Cloudflare DNS instead of ISP DNS to circumvent Belgian censorship
+networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001
+networksetup -setdnsservers Ethernet 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001
+sudo dscacheutil -flushcache
+
+###############################################################################
 # SCREEN
 ###############################################################################
 
