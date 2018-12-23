@@ -10,7 +10,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew tap homebrew/cask
 brew tap homebrew/cask-versions
 
-brew cask install google-chrome
+brew cask install google-chrome-canary
 brew cask install iina-beta
 brew cask install hyper
 brew cask install visual-studio-code-insiders
