@@ -79,14 +79,7 @@
 				"font-smooth",
 				"line-height"
 			],
-			[
-				"position",
-				"z-index",
-				"top",
-				"right",
-				"bottom",
-				"left"
-			],
+			["position", "z-index", "top", "right", "bottom", "left"],
 			[
 				"display",
 				"visibility",
@@ -395,7 +388,6 @@
 	},
 	"window.zoomLevel": 0,
 	"workbench.statusBar.feedback.visible": false,
-	"editor.formatOnSave": true,
 	"workbench.enableExperiments": false,
 	"workbench.activityBar.visible": false,
 	"workbench.editor.tabSizing": "shrink",
@@ -403,5 +395,12 @@
 	"git.enableSmartCommit": true,
 	"git.confirmSync": false,
 	"discord.workspaceElapsedTime": true,
-	"discord.detailsEditing": "Editing {dirname}/{filename}"
+	"discord.detailsEditing": "Editing {dirname}/{filename}",
+	"editor.formatOnSave": true,
+
+	"[dart]": {
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": true
+	}
 }
