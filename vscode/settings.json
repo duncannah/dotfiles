@@ -359,7 +359,8 @@
 	"[php]": {},
 	"[javascriptreact]": {},
 	"files.associations": {
-		"*.js": "javascriptreact"
+		"*.js": "javascriptreact",
+		"*.json": "jsonc"
 	},
 	"explorer.confirmDelete": false,
 	"workbench.sideBar.location": "left",
@@ -402,5 +403,6 @@
 		"editor.tabSize": 4,
 		"editor.insertSpaces": false,
 		"editor.detectIndentation": true
-	}
+	},
+	"explorer.confirmDragAndDrop": false
 }

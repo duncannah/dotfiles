@@ -196,3 +196,12 @@ export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
 export PATH="/usr/local/Cellar/mysql/5.7.22/bin/:$PATH"
 
 export PATH="/Applications/Wine Staging.app/Contents/Resources/wine/bin/:$PATH"
+export PATH="/usr/local/opt/qt/bin:$PATH"
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+alias code=code-insiders

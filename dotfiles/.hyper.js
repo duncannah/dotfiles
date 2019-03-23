@@ -37,7 +37,7 @@ module.exports = {
 
 		// terminal background color
 		// opacity is only supported on macOS
-		backgroundColor: "rgba(18, 18, 18, .5)",
+		backgroundColor: "rgba(255, 0, 0, 1)",
 
 		// terminal selection color
 		selectionColor: "rgba(248,28,229,0.3)",
@@ -92,7 +92,7 @@ module.exports = {
 
 			// [Optional] Set the rgba() app background opacity, useful when enableVibrance is true
 			// OPTIONS: From 0.1 to 1
-			backgroundOpacity: ".55",
+			backgroundOpacity: "1",
 
 			// [Optional] Set the accent color for the current active tab
 			accentColor: "#AB47BC",
@@ -100,7 +100,7 @@ module.exports = {
 			// [Optional] Mac Only. Need restart. Enable the vibrance and blurred background
 			// OPTIONS: 'dark', 'ultra-dark', 'bright'
 			// NOTE: The backgroundOpacity should be between 0.1 and 0.9 to see the effect.
-			vibrancy: "ultra-dark"
+			//vibrancy: "ultra-dark"
 		},
 
 		// the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
