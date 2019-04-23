@@ -1,2 +1,2 @@
 # dotfiles
-Machine hôte est macOS.
+for personal use
