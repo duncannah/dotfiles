@@ -28,6 +28,7 @@ case `uname` in
       git
       osx
       zsh-autosuggestions
+      zsh-syntax-highlighting
     )
   ;;
   Linux)
@@ -35,6 +36,7 @@ case `uname` in
     plugins=(
       git
       zsh-autosuggestions
+      zsh-syntax-highlighting
     )
   ;;
 esac
@@ -53,7 +55,8 @@ export LANG=en_US.UTF-8
 #   export EDITOR='mvim'
 # fi
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 case `uname` in
   Darwin)
