@@ -80,7 +80,7 @@ case `uname` in
   Linux)
     # Remote Linux server
 
-
+    export PATH="/home/duncan/.local/bin:$PATH"
   ;;
 esac
 
