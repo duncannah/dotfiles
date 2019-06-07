@@ -357,9 +357,11 @@
 		]
 	},
 	"[php]": {},
-	"[javascriptreact]": {},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"files.associations": {
-		"*.js": "javascriptreact",
+		"*.js": "javascript",
 		"*.json": "jsonc"
 	},
 	"explorer.confirmDelete": false,
