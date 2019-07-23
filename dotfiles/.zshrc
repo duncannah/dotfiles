@@ -85,3 +85,5 @@ case `uname` in
 esac
 
 alias code=code-insiders
+
+neofetch
