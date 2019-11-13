@@ -41,7 +41,7 @@ brew install quicklook-json
 brew install zsh-syntax-highlighting
 
 # For SVP support & rubberband
-brew install mpv --with-uchardet --with-libbluray --with-vapoursynth --with-rubberband
+brew install --HEAD ./formulas/mpv.rb
 
 brew cleanup
 
