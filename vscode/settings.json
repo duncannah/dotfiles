@@ -1,20 +1,17 @@
 {
-	"workbench.colorTheme": "Material Theme Ocean",
-
+	"workbench.colorTheme": "LaserWave Italic",
 	"editor.fontFamily": "SFMono Nerd Font",
 	"editor.renderWhitespace": "all",
 	"materialTheme.fixIconsRunning": false,
 	"workbench.iconTheme": "eq-material-theme-icons-ocean",
-
 	"editor.fontLigatures": true,
 	"explorer.decorations.badges": false,
 	"atomKeymap.promptV3Features": true,
 	"editor.multiCursorModifier": "ctrlCmd",
-
 	"editor.insertSpaces": false,
-
-	"vscode_custom_css.imports": ["file:///Users/erman/.editor.css"],
-
+	"vscode_custom_css.imports": [
+		"file:///Users/erman/.editor.css"
+	],
 	"csscomb.formatOnSave": true,
 	"csscomb.preset": {
 		// Whether to add a semicolon after the last value/mixin.
@@ -79,7 +76,14 @@
 				"font-smooth",
 				"line-height"
 			],
-			["position", "z-index", "top", "right", "bottom", "left"],
+			[
+				"position",
+				"z-index",
+				"top",
+				"right",
+				"bottom",
+				"left"
+			],
 			[
 				"display",
 				"visibility",
@@ -367,6 +371,7 @@
 	"explorer.confirmDelete": false,
 	"workbench.sideBar.location": "left",
 	"materialTheme.accent": "Purple",
+	/*
 	"workbench.colorCustomizations": {
 		"activityBarBadge.background": "#AB47BC",
 		"list.activeSelectionForeground": "#AB47BC",
@@ -388,11 +393,11 @@
 		"breadcrumb.activeSelectionForeground": "#AB47BC",
 		"menu.selectionForeground": "#AB47BC",
 		"menubar.selectionForeground": "#AB47BC"
-	},
+	},*/
 	"window.zoomLevel": 0,
 	"workbench.statusBar.feedback.visible": false,
 	"workbench.enableExperiments": false,
-	"workbench.activityBar.visible": false,
+	"workbench.activityBar.visible": true,
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 	"git.enableSmartCommit": true,
@@ -400,7 +405,6 @@
 	"discord.workspaceElapsedTime": true,
 	"discord.detailsEditing": "Editing {dirname}/{filename}",
 	"editor.formatOnSave": true,
-
 	"[dart]": {
 		"editor.tabSize": 4,
 		"editor.insertSpaces": false,
@@ -408,6 +412,9 @@
 	},
 	"explorer.confirmDragAndDrop": false,
 	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 }
