@@ -11,7 +11,7 @@ brew tap homebrew/cask
 brew tap homebrew/cask-versions
 
 brew cask install google-chrome-canary
-brew cask install iina-beta
+brew cask install iina
 brew cask install hyper
 brew cask install visual-studio-code-insiders
 brew cask install veracrypt
@@ -34,7 +34,8 @@ brew cask install xquartz
 brew cask install wine-staging
 brew cask install phantomjs
 
-# Remove bundled mpv from IINA to use the custom one
-rm /Applications/IINA.app/Contents/Frameworks/libmpv*
+# Use custom MPV for IINA
+rm "/Applications/IINA.app/Contents/Frameworks/libmpv.1.dylib"
+ln -s /usr/local/lib/libmpv.1.dylib "/Applications/IINA.app/Contents/Frameworks/libmpv.1.dylib"
 
 echo "$(basename "$0") complete."
