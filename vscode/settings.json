@@ -1,9 +1,8 @@
 {
-	"workbench.colorTheme": "LaserWave Italic",
 	"editor.fontFamily": "SFMono Nerd Font",
 	"editor.renderWhitespace": "all",
 	"materialTheme.fixIconsRunning": false,
-	"workbench.iconTheme": "eq-material-theme-icons-ocean",
+	"workbench.iconTheme": "file-icons",
 	"editor.fontLigatures": true,
 	"explorer.decorations.badges": false,
 	"atomKeymap.promptV3Features": true,
@@ -397,7 +396,6 @@
 	"window.zoomLevel": 0,
 	"workbench.statusBar.feedback.visible": false,
 	"workbench.enableExperiments": false,
-	"workbench.activityBar.visible": true,
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 	"git.enableSmartCommit": true,
@@ -416,5 +414,13 @@
 	},
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"terminal.integrated.rendererType": "dom",
+	"customizeUI.activityBar": "bottom",
+	"customizeUI.titleBar": "inline",
+	"window.titleBarStyle": "native",
+	"customizeUI.font.monospace": "SFMono Nerd Font",
+	"customizeUI.font.regular": "SFMono Nerd Font",
+	"vscode_vibrancy.type": "menu",
+	"vscode_vibrancy.opacity": 0.8
 }

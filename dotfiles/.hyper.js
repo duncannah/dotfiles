@@ -33,17 +33,17 @@ module.exports = {
 		cursorBlink: false,
 
 		// color of the text
-		foregroundColor: "#cccccc",
+		foregroundColor: "#fff",
 
 		// terminal background color
 		// opacity is only supported on macOS
-		backgroundColor: "rgba(255, 0, 0, 1)",
+		backgroundColor: "000",
 
 		// terminal selection color
 		selectionColor: "rgba(248,28,229,0.3)",
 
 		// border color (window, tabs)
-		borderColor: "#121212",
+		borderColor: "#333",
 
 		// custom CSS to embed in the main window
 		css: "n { -webkit-font-smoothing: antialiased !important; } * { -webkit-text-stroke-width: .5px; }",
@@ -95,7 +95,7 @@ module.exports = {
 			backgroundOpacity: "1",
 
 			// [Optional] Set the accent color for the current active tab
-			accentColor: "#AB47BC",
+			accentColor: "#AB47BC"
 
 			// [Optional] Mac Only. Need restart. Enable the vibrance and blurred background
 			// OPTIONS: 'dark', 'ultra-dark', 'bright'
@@ -131,7 +131,7 @@ module.exports = {
 		copyOnSelect: false,
 
 		// if `true` (without backticks and without quotes), hyper will be set as the default protocol client for SSH
-		defaultSSHApp: true
+		defaultSSHApp: true,
 
 		// if `true` (without backticks and without quotes), on right click selected text will be copied or pasted if no
 		// selection is present (`true` by default on Windows and disables the context menu feature)
@@ -139,6 +139,8 @@ module.exports = {
 
 		// URL to custom bell
 		// bellSoundURL: 'http://example.com/bell.mp3',
+
+		webGLRenderer: false
 
 		// for advanced config flags please refer to https://hyper.is/#cfg
 	},
