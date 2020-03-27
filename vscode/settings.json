@@ -393,10 +393,9 @@
 		"menu.selectionForeground": "#AB47BC",
 		"menubar.selectionForeground": "#AB47BC"
 	},*/
-	"window.zoomLevel": 0,
+	"window.zoomLevel": -1,
 	"workbench.statusBar.feedback.visible": false,
 	"workbench.enableExperiments": false,
-	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 	"git.enableSmartCommit": true,
 	"git.confirmSync": false,
@@ -422,5 +421,8 @@
 	"customizeUI.font.monospace": "SFMono Nerd Font",
 	"customizeUI.font.regular": "SFMono Nerd Font",
 	"vscode_vibrancy.type": "menu",
-	"vscode_vibrancy.opacity": 0.8
+	"vscode_vibrancy.opacity": 0.8,
+	"workbench.editor.labelFormat": "short",
+	"customizeUI.listRowHeight": 22,
+	"workbench.tree.indent": 12
 }
