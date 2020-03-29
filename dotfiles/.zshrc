@@ -81,6 +81,8 @@ case `uname` in
     # Remote Linux server
 
     export PATH="/home/duncan/.local/bin:$PATH"
+
+    alias youtube-dl='python3 ~/youtube-dl-url/bin/youtube-dl'
   ;;
 esac
 
