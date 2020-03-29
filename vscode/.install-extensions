@@ -4,4 +4,6 @@ echo "$(basename "$0") starting."
 
 while read ex; do code-insiders --install-extension "$ex"; done < ./.extensions
 
+code-insiders --install-extension ./vscode-csscomb-5.3.0.vsix
+
 echo "$(basename "$0") complete."
