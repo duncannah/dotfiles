@@ -11,6 +11,7 @@ ZLE_RPROMPT_INDENT=0
 SPACESHIP_CHAR_SUFFIX=' '
 SPACESHIP_CHAR_SYMBOL='>'
 SPACESHIP_NODE_DEFAULT_VERSION=$(node -v)
+SPACESHIP_PYENV_SHOW=false
 
 ZSH_THEME="spaceship"
 
@@ -76,6 +77,9 @@ case `uname` in
     export PATH=$PATH:$ANDROID_HOME/tools
     export PATH=$PATH:$ANDROID_HOME/tools/bin
     export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+    # Pyenv
+    eval "$(pyenv init -)"
   ;;
   Linux)
     # Remote Linux server
@@ -89,4 +93,4 @@ esac
 
 alias code=code-insiders
 
-neofetch
+pfetch
